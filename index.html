@@ -5,114 +5,348 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styel.css">
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font-ausome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vip Convention center</title>
 </head>
 
 <body>
-    <section>
-        <div class="hero-area flex-box">
-            <div class="box box-1">
-         
-                    <h1 class="hero-h1">Stay Focused on<br>
-                        <span class="color-heading">Mission 2022</span>
-                    </h1>
-              
-                <p>
-                    I already learned the basic HTML and CSS. I can build any simple website. I learn coding from
-                    Programming hero how to make simple website. My goal is to a Web Developer.
+    <header>
+        <!-- navbar start  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href='https://www.facebook.com/mdtomiz.420'>Vip Convention center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href='https://www.facebook.com/mdtomiz.420'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://www.facebook.com/mdtomiz.420'>About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://www.facebook.com/mdtomiz.420'>Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href='https://www.facebook.com/mdtomiz.420'>Subscrive</a>
+                        </li>
 
-
-                </p>
-                <button>Explore Now</button>
-                <p>Scroll Down to Explore About us</p>
+                </div>
             </div>
-            <div class="box box-2">
-                <img src="man-img-1.png" alt="">
+        </nav>
+        <!-- navbar End  -->
+       
+        <div id="carouselExampleCaptions" class="carousel slide h-sm-70" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Weddding Ceromony</h5>
+                            <p>Accommodation at Super Premier Deluxe</p>
+                            <a href='https://www.facebook.com/mdtomiz.420' class="text-decoration-none btn-lg btn-light">Book now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/haldi-ceremony.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white">Holdi Ceromony And Photography</h1>
+                        <p class="text-white">The Haldi ceremony is so colourful and vibrant and so much fun to photograph.</p>
+                        <a href='https://www.facebook.com/mdtomiz.420' class="text-decoration-none btn-lg btn-light">Book now</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/meating.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 >Meating Ceromony</h1>
+                        <p>We have big meating Room for company meating</p>
+                        <a href='https://www.facebook.com/mdtomiz.420' class="text-decoration-none btn-lg btn-light">Book now</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carusel slider end -->
+    </header>
+    <!-- headre End  -->
+   
+    <!-- about section start  -->
+    
+    <section class="my-5">
+        <h1 class="text-center my-4">About Us</h1>
+        <p class="text-center">
+            Vip Convention center  Convention center is the largest <br>  community center in Bangladesh. Lovely place and awesome <br> decorations are looking very nice. Our facility and capacity
+        </p>
+        <div class="container mx-auto my-5">
+            <div class="row  gx-3 gy-3 my-5">
+                <div class="col-lg-4 w-32 border col-md-10 col-sm-10 p-4">
+                    <img class="my-4" src="images/icon1.png" alt="">
+                    <h4>32,000 Square Feet Space
+                    </h4>
+                    <p>Wedding Ceremony, Cultural Show, Any Kind of Party, Seminar, Conference , Family Function</p>
+                </div>
+                <div class="col-lg-4  w-32 border col-md-10 col-sm-10 p-4">
+                    <img class="my-3" src="images/icon2.png" alt="">
+                    <h4 >250+ Seat Capacity at a Time
+
+                    </h4>
+                    <p>There are many variations of passages of that a Lorem Ipsum available but the at majority have suffered alteration in some dummy.</p>
+                </div>
+                <div class="col-lg-4 w-32 border col-md-10 col-sm-10 p-4">
+                    <img class="my-3" src="images/icon3.webp" alt="">
+                    <h4>Full WIFI Zone Facilities
+                    </h4>
+                    <p>There are many variations of passages of that a Lorem Ipsum available but the at majority have suffered alteration in some dummy.</p>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <h1 class="section2-heading">My Mission in <span class="color-heading">2022</span></h1>
+   
+    <!-- Fricing section End here -->
+    <section class="pricing">
+        <h1 class="text-center py-5">Our Packege</h1>
+        <div class="container my-5">
+            <div class="row gx-5 gy-5 ">
+                <!-- col start -->
+                <div class="col-lg-3 col-md-11 col-sm-12 mx-20 py-4">
+                    <h1>$300</h1>
+                    <h2>Busness Fair</h2>
+                    <p>The most Busness Event Line
+                        Book fair.cradit fair</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        limited space access</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Security Facilty</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Event Support</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Decoration Design</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        per Day bill</p>
+
+
+                    <button class="btn-lg btn-outline-danger  border-1 rounded-pill">Choose Plan</button>
+                </div>
+                <!-- col end  -->
+                <!-- col start -->
+                <div class="col-lg-3 col-md-11 col-sm-12 mx-20 py-4">
+                    <h1>$500</h1>
+                    <h2>wedding basic</h2>
+                    <p>For wedding with basic plan and limited item</p>
+
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Full space access</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        food arrangment</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Management Support</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill"></i>
+                        Decoration Design</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Billed As Shift</p>
+
+                    <button class="btn-lg btn-outline-danger  border-1 rounded-pill">Choose Plan</button>
+                </div>
+                <!-- col End -->
+                <!-- col start -->
+                <div class="position-relative col-lg-3 col-md-11 col-sm-12 rounded-3 my-sm-3 my-lg-2 py-4 bg-primary ">
+                    <span class="fs-4 position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        Hot
+                    </span>
+
+                    <h1 class="text-white">$800</h1>
+                    <h2 class="text-white">Wedding Plus</h2>
+                    <p class="text-white">For most weddings with premium plan </p>
+
+                    <p class="text-white"><i
+                            class="fas fa-check bg-danger text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        full space access</p>
+                    <p class="text-white"><i
+                            class="fas fa-check bg-danger text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Dedicated team</p>
+                    <p class="text-white"><i
+                            class="fas fa-check bg-danger text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Bufft Food</p>
+                    <p class="text-white"><i
+                            class="fas fa-check bg-danger text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Premium Decoretion</p>
+                    <p class="text-white"><i
+                            class="fas fa-check bg-danger text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        per as plan</p>
+
+                    <button class="btn-lg  btn-outline-success  border-1 rounded-pill">Choose Plan</button>
+
+                </div>
+                <!-- col End -->
+                <!-- col start -->
+                <div class="col-lg-3 col-md-11 col-sm-12 mx-20 py-4">
+                    <h1>$1500</h1>
+                    <h2>Corporate event</h2>
+                    <p>For most corporate business
+                        events</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        full space access</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Dedicated team</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Bufft Food</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        Premium Decoretion</p>
+                    <p><i class="fas fa-check bg-dark text-white rounded-pill bg-dark text-white rounded-pill"></i>
+                        per as plan</p>
+
+                    <button class="btn-lg btn-outline-danger  border-1 rounded-pill">Choose Plan</button>
+                </div>
+                <!-- col End -->
+            </div>
+        </div>
+    </section>
+    <!-- Fricing section End here -->
+
+    <!-- Prequently ask Question start -->
+    <section class="my-5">
+        <h1 class="text-center my-sm-5 ">Frequently Asked Questions</h1>
+        <div class="container mx-auto row d-lg-flex d-md-block d-sm-block">
+            <div class="box-accordian my-5 col-sm-12 col-md-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <!-- accordion item start  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What's the difference between event design and event planning?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Event design and event planning work hand in hand to deliver a successful event.Events
+                                by Knight offer tailor made events. This means we incorporate both event design and
+                                event planning to create that perfect event.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion item End  -->
+                    <!-- accordion item start  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How early do we need to start planning an event
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Planning an event can take from weeks to months, it really depends on the size and the
+                                details that the event involves. Having enough time allows you to comfortably cover
+                                different areas and prepare yourself for potential scenarios that might happen so you
+                                can consider
+                                various options prior the date. You always need more time than you think!
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion item End  -->
+                    <!-- accordion item start  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your refund and cancellation policy?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                To reduce last-minute cancellations and the risk of "chargebacks" from customers, it is
+                                always a good idea to have your customers agree to your cancellation and refund policy.
+                                This should be attached to the customers' order for future reference.
+                                Occasion makes this easy for you and your customers.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion item End  -->
+                    <!-- accordion item start  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do you keep budgets on track?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Having a budget for most things in life is important and keeping to that budget is
+                                fundamental, knowing what is important is vital for that event to be a success. It
+                                doesn't matter how big or small the budget is, the budget is crucial in order to know
+                                where you stand and what you can achieve; from weddings to parties, conferences or team
+                                building events, every event needs a budget to act as the glue that keeps everything
+                                together. This is key in knowing what we can or can't afford, yet sometimes we tend to
+                                want more than we've accounted for.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion item End  -->
+                </div>
+            </div>
+            <div class="box-accordian  col-sm-12 col-md-12 col-lg-6 ">
+                <img width="100%" src="images/people.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End  -->
+    <footer class="bg-dark py-5  ">
         <div class="container">
-            <div class="con-box first-box">
-                <img src="illustrator-1.png" alt="">
-                <h2>Mission</h2>
-                <p>
-                    I want to be a
-                    web Developer. my mission in
-                    2022 To learn More and more Programming language
-                </p>
-            </div>
-            <div class="con-box mid-box">
-                <img src="illustrator-2.png" alt="">
-                <h2>Mission</h2>
-                <p>
-                    I want to be a
-                    web Developer. my mission in
-                    2022 To learn More and more Programming language
-                </p>
-            </div>
-            <div class="con-box last-box">
-                <img src="illustrator-3.png" alt="">
-                <h2>Mission</h2>
-                <p>
-                    I want to be a
-                    web Developer. my mission in
-                    2022 To learn More and more Programming language
-                </p>
+
+            <p class="text-white text-center">© 2020 Tomiz. All rights reserved</p>
+            <h2 class="text-white text-center py-3">Get The App</h2>
+
+            <div  class="images d-flex flex-sm-row  justify-content-center">
+               
+
+                    <a class="d-block" target="_blank" href="https://www.apple.com/store">
+                        <img height="50px" src="images/apple.png" alt="">
+                    </a>
+                    <a class="d-block" target="_blank" href="https://play.google.com/store/apps/details?id=org.telegram.messenger">
+                        <img height="50px" src="images/play-store.png" alt="">
+                    </a>
+                
+             
             </div>
 
         </div>
-    </section>
-    <section class="section-3">
-        <div class="container">
-            <div class="box">
-                <img src="coding.png" alt="">
-            </div>
-            <div class="box">
-                <h1>Develop<br>
-                    Without Limits</h1>
-                <p>
-
-                    To enhancing the business growth of our customers with creative Design and Development to deliver
-                    market-defining high-quality solutions that create value and consistent
-                    competitive advantage for our clients around the world.
-                </p>
-                <button>Read The Documention </button>
-            </div>
-
-        </div>
-    </section>
-    <section class="section-4">
-        <div class="container">
-           
-            <div class="box">
-                <h1>Know Our <br>
-                    Global Community</h1>
-                <p>
-
-                    Everyone from the Toptal network I've had an opportunity to speak or collaborate with is an exceptional professional.
-                     Being in contact with them is an invaluable experience.
-                </p>
-                <button>Read The Documention </button>
-            </div>
-            <div class="box">
-                <img src="project.png" alt="">
-            </div>
-
-
-        </div>
-    </section>
-    <footer>
-        <h1>
-            Mission <span class="color-heading">2022</span>
-        </h1>
-        <p>© 2021 Portfolio Made with by Tomiz</p>
     </footer>
+    <!-- bootstrap js cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
