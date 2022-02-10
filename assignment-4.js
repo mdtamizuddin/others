@@ -34,7 +34,7 @@ function pandaCoast(singara , comuca , jilapi) {
 
 }
 // function(2) end
-let productQuantity = pandaCoast(-10 , 12 , 15);
+let productQuantity = pandaCoast(10 , 12 , 15);
 
 console.log(productQuantity);
 
@@ -46,13 +46,13 @@ function picnicBudget(mambers) {
 
     if (mambers <= 100) {
         
-        coatPerMamber = 5000 ;
+        coatPerMamber = 5000 * mambers;
     }
     else if (mambers <= 200 ){
-        coatPerMamber = 4000 ;
+        coatPerMamber = 4000 * mambers ;
     }
     else {
-        coatPerMamber = 3000 ;
+        coatPerMamber = 3000 * mambers ;
     }
    return coatPerMamber;
 }
